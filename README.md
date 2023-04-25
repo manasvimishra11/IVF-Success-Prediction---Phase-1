@@ -1,7 +1,7 @@
 # IVF-Success-Prediction---Phase-1
-This is the phase 1 of a IVF Success Prediction Model. 
+This is an ongoing project of an IVF Success Prediction Model. 
 
-##Description of the project
+# Description of the project
 This project consists of a comparitive analysis between four machine learning models namely Gradient Boosting, Random Forest, Support Vector Machine, and Logistic Regression. 
 Our project consisted of the following steps: 
 1.	Data Collection : In this stage we collected real time IVF data from Dr P. Thamilselvan. 
@@ -31,5 +31,9 @@ Our project consisted of the following steps:
   1.	Accuracy: 0.85
   2.	Specificity: 0.90
   3.	Sensitivity: 0.75
+
+
+#Future Work 
+Our future work would consist of giving the result in a percentage form rather than simple classification. We would also include hyperparameter tuning to add improve the accuracy of our models. We would include advanced machine learning and deep learning techinques to get better results. 
 
 
