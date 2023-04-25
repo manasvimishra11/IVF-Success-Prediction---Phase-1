@@ -7,7 +7,9 @@ Our project consisted of the following steps:
 1.	Data Collection : In this stage we collected real time IVF data from Dr P. Thamilselvan. 
 2.	Data Preprocessing: Since the data we obtained was raw data, processing the data involved a very long and tedious method. We handled the missing values in columns by imputation, dropping columns and treating missing values as a separate category. Further to develop a model with this data we were required to standardize the same. After data standardization we converted the categorical variables to numeric. Further we also studied the different features available to us using Exploratory Data Analysis. 
 3.	Feature Engineering : This phase consisted to 2 sub parts: 
+  
   3.1	Feature Selection : In this phase we evaluated the important features using five feature selection techniques. From which we generated the top 20 features of each technique and further classified the most occurring features as important. Those features were namely : Age(F), Duration of infertility(years), BMI(F), Psychological and Emotional, Strain of repeated treatment, Gross and Microscopic Appearance, Sperm Motility, Sperm Vitality, No. Of Oocytes Retrieved, No. Of Embryos Transferred. 
+  
   3.2	Feature Extraction : In feature extraction we used PCA. To determine the number of PC’s required we plotted a scree plot(attached below). Further we plotted a heat map to show the important features. (attached below) 
 4.	Model Building : We built 4 machine learning classification models namely RF, SVM, Gradient Boosting and Logistic Regression. We evaluated our models on the basis of three criteria’s Accuracy, Specificity, and Sensitivity. For building the models we split our dataset into train and test data with a 80:20 ratio. Further to increase the accuracy of the same we tuned the parameters of the same. 
 5. Results : 
